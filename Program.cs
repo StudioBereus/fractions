@@ -13,7 +13,7 @@ namespace fractions
         }
         public Fraction(int _numerateur) 
         {
-            denominateur = 0;
+            denominateur = 1;
             numerateur = _numerateur;
         }
         public override string ToString()
